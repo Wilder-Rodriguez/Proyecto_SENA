@@ -1,0 +1,68 @@
+ 
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	width: 100%;
+}
+nav{
+	margin:20px auto;
+	width: 80%;
+	max-width: 1000px;
+}
+nav ul{
+	list-style: none;
+}
+nav ul{
+	display:table;
+	overflow:hidden;
+	width: 100%;
+	background: white;
+	position: relative;
+}
+nav> ul li{
+	display: table-cell;
+
+}
+/*submenu*/
+nav> ul> li:hover > ul{
+	display: block;
+}
+nav> ul> li> ul{
+	display: block;
+	position: absolute;
+	background: #000;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	height: 0%;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+nav> ul> li a {
+	color: #;
+}
+nav> ul> li >ul{
+	display: none;
+}
+nav>ul li a {
+	color: blue;
+	display: block;
+	line-height: 5px;
+	padding: 12px;
+	position: relative;
+	text-align: right;
+	text-decoration: none;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav> ul> li> ul> li> a:hover{
+	background:#5da5a2;
