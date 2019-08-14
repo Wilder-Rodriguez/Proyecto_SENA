@@ -1,0 +1,39 @@
+
+
+.polig{ 
+width:200px; 
+height:200px; 
+background:#444444; 
+font-family:arial; 
+font-weight:bold; 
+color:#EEEEEE; 
+} 
+
+</style> 
+
+<div class="polig"> CONTENIDO . . . </div> 
+<br> 
+<div class="polig"> CONTENIDO . . . </div> 
+
+body{
+  background-image: url(../Registro/images/feria.jpg);
+  background size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: all;
+
+}
+  form{
+    width: 300px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin: 10px auto;
+    display: block;
+    font-size: green;
+  }
+  
+ 
